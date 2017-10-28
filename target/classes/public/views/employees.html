@@ -1,0 +1,16 @@
+<div class="container pad-top">
+  <table class="table employeetable">
+      <tr>
+          <td><h3>All employees</h3></td>
+          <td></td>
+      </tr>
+      <tr ng-repeat="employee in employees">
+          <td>{{employee.firstName}}</td>
+          <td>{{employee.lastName}}</td>
+          <td>{{employee.uid}}</td>
+          <td>
+              <a class="btn btn-primary" ui-sref="viewemployee({id:employee.id})">View</a>
+          </td>
+      </tr>
+  </table>
+</div>

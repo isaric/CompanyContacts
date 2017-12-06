@@ -1,15 +1,15 @@
 <div class="container pad-top">
-  <table class="table employeetable">
+    <table class="table employeetable" ng-controller="employeeController">
       <tr>
           <td><h3>All employees</h3></td>
           <td></td>
       </tr>
-      <tr ng-repeat="employee in employees">
-          <td>{{employee.firstName}}</td>
-          <td>{{employee.lastName}}</td>
-          <td>{{employee.uid}}</td>
+        <tr ng-repeat="emp in employees">
+            <td>{{emp.uid}}</td>
+            <td>{{emp.firstName}}</td>
+            <td>{{emp.lastName}}</td>
           <td>
-              <a class="btn btn-primary" ui-sref="viewemployee({id:employee.id})">View</a>
+              <a class="btn btn-primary" ui-sref="viewEmployee({id:employee.uid})">View</a>
           </td>
       </tr>
   </table>

@@ -1,5 +1,5 @@
 (function() {
-	var app = angular.module('app', ['ui.router', 'navController', 'ngAnimate', 'ui.bootstrap', 'ngResource', 'app.controllers', 'app.services'])
+    var app = angular.module('app', ['ui.router', 'navController', 'ngAnimate', 'ui.bootstrap', 'ngResource', 'app.controllers.login', 'app.services.login', 'app.services.employee', 'app.controllers.register', 'app.controllers']);
 
 	// define for requirejs loaded modules
 	define('app', [], function() { return app; });
@@ -31,7 +31,8 @@
 			return origController.apply(this, arguments);
 		}
 
-		var viewsPrefix = 'views/';
+
+        var viewsPrefix = 'views/';
 
 		// For any unmatched url, send to /
 		$urlRouterProvider.otherwise("/")
@@ -48,30 +49,22 @@
 			.state('employees',{
 	        url:'/employees',
 	        templateUrl: viewsPrefix + 'employees.html',
-	        controller:'EmployeeListController'
-	    }).state('viewEmployee',{
-	       url:'/employees/:id/view',
-	       templateUrl: viewsPrefix + 'employee.html',
-	       controller:'EmployeeViewController'
-	    }).state('newEmployee',{
-	        url:'/employees/add',
-	        templateUrl: viewsPrefix + 'employee-add.html',
-	        controller:'EmployeeCreateController'
-	    }).state('editEmployee',{
-	        url:'/employees/:id/edit',
-	        templateUrl: viewsPrefix + 'employee-edit.html',
-	        controller:'EmployeeEditController'
+                controller: 'employeeController'
 	    }).state('login',{
             url:'/login',
             templateUrl: viewsPrefix + 'login.html',
-            controller:'LoginController'
+            controller: 'loginController'
+        }).state('viewEmployee', {
+            url: '/employees/:id',
+            templateUrl: viewsPrefix + 'employee.html',
+            controller: 'loginController'
         })
 	})
 	.directive('updateTitle', ['$rootScope', '$timeout',
 		function($rootScope, $timeout) {
 			return {
 				link: function(scope, element) {
-					var listener = function(event, toState) {
+                    var listener = function (event, toState, from) {
 						var title = 'Project Name';
 						if (toState.data && toState.data.pageTitle) title = toState.data.pageTitle + ' - ' + title;
 						$timeout(function() {

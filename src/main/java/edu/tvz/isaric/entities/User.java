@@ -3,6 +3,7 @@ package edu.tvz.isaric.entities;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "users")
 public class User
 {
     @Id

@@ -5,7 +5,10 @@ import edu.tvz.isaric.forms.EmployeeForm;
 import edu.tvz.isaric.repositories.EmployeeRepository;
 import edu.tvz.isaric.services.employees.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class DefaultEmployeeService implements EmployeeService
@@ -31,6 +34,8 @@ public class DefaultEmployeeService implements EmployeeService
         newEmployee.setUid(employee.getUid());
         newEmployee.setFirstName(employee.getFirstName());
         newEmployee.setLastName(employee.getLastName());
+        BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
+        newEmployee.setPasswordHash(bCryptPasswordEncoder.encode(employee.getPassword()));
         employeeRepository.save(newEmployee);
     }
 
@@ -47,5 +52,11 @@ public class DefaultEmployeeService implements EmployeeService
     public void deleteEmployee(String uid)
     {
         employeeRepository.deleteByUid(uid);
+    }
+
+    @Override
+    public List<Employee> findAll()
+    {
+        return employeeRepository.findAll();
     }
 }

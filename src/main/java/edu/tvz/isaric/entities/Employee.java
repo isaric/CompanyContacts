@@ -4,7 +4,6 @@ import javax.persistence.*;
 import java.util.List;
 
 @Entity
-@Table(name = "employees")
 public class Employee extends User
 {
     @ManyToOne(targetEntity = Department.class)

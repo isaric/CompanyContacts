@@ -3,7 +3,6 @@ package edu.tvz.isaric.entities;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "clients")
 public class Client extends User
 {
     @ManyToOne(targetEntity = Company.class)

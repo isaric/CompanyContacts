@@ -1,4 +1,4 @@
-angular.module("app.controllers.login", []).controller('loginController', ['$state', '$scope', 'loginService',
+angular.module("app.controllers.login",[]).controller('loginController', ['$state', '$scope', 'loginService',
     function ($state, $scope, loginService) {
         $scope.loginForm = {};
         $scope.doLogin = function () {

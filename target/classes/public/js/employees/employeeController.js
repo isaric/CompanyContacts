@@ -1,4 +1,4 @@
-angular.module("app.controllers", ['app.services.employee']).controller('employeeController', ['$state', '$scope', 'employeeService', '$routeParams',
+angular.module("app.controllers", ['app.services.employee']).controller('employeeController', ['$state', '$scope', 'employeeService','$routeParams',
     function ($state, $scope, employeeService, $routeParams) {
 
 
@@ -6,7 +6,7 @@ angular.module("app.controllers", ['app.services.employee']).controller('employe
 
         $scope.employee = employeeService.getElementById($routeParams.id);
 
-        $scope.insertEmployee = function () {
+        $scope.insertEmployee = function(){
             employeeService.insertEmployee($scope.employee);
         };
 

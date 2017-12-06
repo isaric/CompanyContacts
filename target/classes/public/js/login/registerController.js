@@ -1,4 +1,4 @@
-angular.module("app.controllers.register", []).controller('registerController', ['$state', '$scope', 'employeeService',
+angular.module("app.controllers.register",[]).controller('registerController', ['$state', '$scope', 'employeeService',
     function ($state, $scope, employeeService) {
         $scope.employee = {};
         $scope.doRegister = function () {

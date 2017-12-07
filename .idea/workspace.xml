@@ -2,28 +2,292 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb09ab8b-1236-4249-9bd6-84a116df79d6" name="Default" comment="recording java changes">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/angular-cli.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/e2e/tsconfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/tsconfig.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts-client/src/favicon.ico" afterPath="$PROJECT_DIR$/accounts-client/src/favicon.ico" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/e2e/app.e2e-spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/e2e/app.po.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/e2e/tsconfig.e2e.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/package-lock.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@core/core.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@core/data/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@core/data/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@core/data/data.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@core/data/electricity.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@core/data/player.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@core/data/smart-table.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@core/data/state.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@core/data/users.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@core/module-import-guard.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@core/utils/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@core/utils/analytics.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/components/footer/footer.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/components/footer/footer.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/components/header/header.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/components/header/header.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/components/header/header.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/components/index.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/components/search-input/search-input.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/components/search-input/search-input.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/components/theme-settings/theme-settings.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/components/theme-settings/theme-settings.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/components/theme-switcher/theme-switcher.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/components/theme-switcher/theme-switcher.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/components/tiny-mce/tiny-mce.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/directives/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/layouts/index.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/layouts/one-column/one-column.layout.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/layouts/one-column/one-column.layout.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/layouts/sample/sample.layout.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/layouts/sample/sample.layout.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/layouts/three-columns/three-columns.layout.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/layouts/three-columns/three-columns.layout.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/layouts/two-columns/two-columns.layout.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/layouts/two-columns/two-columns.layout.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/pipes/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/pipes/capitalize.pipe.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/pipes/index.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/pipes/plural.pipe.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/pipes/round.pipe.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/pipes/timing.pipe.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/styles/pace.theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/styles/styles.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/styles/theme.cosmic.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/styles/theme.default.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/styles/themes.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/@theme/theme.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/app-routing.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/app.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/app.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/app.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/app.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/app.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/chartjs/chartjs-bar-horizontal.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/chartjs/chartjs-bar.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/chartjs/chartjs-line.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/chartjs/chartjs-multiple-xaxis.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/chartjs/chartjs-pie.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/chartjs/chartjs-radar.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/chartjs/chartjs.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/chartjs/chartjs.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/chartjs/chartjs.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/charts-routing.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/charts.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/charts.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/d3/d3-advanced-pie.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/d3/d3-area-stack.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/d3/d3-bar.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/d3/d3-line.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/d3/d3-pie.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/d3/d3-polar.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/d3/d3.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/d3/d3.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/d3/d3.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/echarts/echarts-area-stack.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/echarts/echarts-bar-animation.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/echarts/echarts-bar.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/echarts/echarts-line.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/echarts/echarts-multiple-xaxis.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/echarts/echarts-pie.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/echarts/echarts-radar.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/echarts/echarts.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/echarts/echarts.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/charts/echarts/echarts.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/components/components-routing.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/components/components.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/components/components.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/components/notifications/notifications.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/components/notifications/notifications.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/components/notifications/notifications.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/components/tree/tree.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/components/tree/tree.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/contacts/contacts.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/contacts/contacts.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/contacts/contacts.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/dashboard.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/dashboard.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/dashboard.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/dashboard.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/electricity/electricity-chart/electricity-chart.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/electricity/electricity-chart/electricity-chart.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/electricity/electricity.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/electricity/electricity.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/electricity/electricity.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/kitten/kitten.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/kitten/kitten.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/kitten/kitten.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/rooms/player/player.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/rooms/player/player.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/rooms/player/player.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/rooms/room-selector/room-selector.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/rooms/room-selector/room-selector.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/rooms/room-selector/room-selector.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/rooms/rooms.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/rooms/rooms.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/security-cameras/security-cameras.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/security-cameras/security-cameras.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/security-cameras/security-cameras.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/solar/solar.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/solar/solar.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/status-card/status-card.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/status-card/status-card.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/team/team.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/team/team.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/team/team.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/temperature/temperature-dragger/temperature-dragger.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/temperature/temperature-dragger/temperature-dragger.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/temperature/temperature-dragger/temperature-dragger.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/temperature/temperature.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/temperature/temperature.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/temperature/temperature.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/traffic/traffic-chart.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/traffic/traffic.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/traffic/traffic.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/weather/weather.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/weather/weather.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/dashboard/weather/weather.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/editors/ckeditor/ckeditor.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/editors/ckeditor/ckeditor.loader.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/editors/editors-routing.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/editors/editors.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/editors/editors.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/editors/tiny-mce/tiny-mce.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/forms/form-inputs/form-inputs.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/forms/form-inputs/form-inputs.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/forms/form-inputs/form-inputs.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/forms/form-layouts/form-layouts.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/forms/form-layouts/form-layouts.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/forms/form-layouts/form-layouts.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/forms/forms-routing.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/forms/forms.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/forms/forms.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/maps/bubble/bubble-map.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/maps/bubble/bubble-map.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/maps/gmaps/gmaps.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/maps/gmaps/gmaps.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/maps/leaflet/leaflet.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/maps/leaflet/leaflet.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/maps/maps-routing.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/maps/maps.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/maps/maps.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/pages-menu.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/pages-routing.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/pages.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/pages.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/tables/smart-table/smart-table.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/tables/smart-table/smart-table.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/tables/tables-routing.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/tables/tables.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/tables/tables.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/action-groups/action-groups.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/action-groups/action-groups.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/action-groups/action-groups.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/block-level-buttons/block-level-buttons.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/block-level-buttons/block-level-buttons.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/button-groups/button-groups.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/button-groups/button-groups.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/button-groups/button-groups.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/buttons.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/buttons.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/buttons.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/buttons.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/default-buttons/default-buttons.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/default-buttons/default-buttons.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/default-buttons/default-buttons.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/dropdown-buttons/dropdown-button.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/dropdown-buttons/dropdown-button.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/dropdown-buttons/dropdown-button.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/hero-buttons/hero-buttons.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/hero-buttons/hero-buttons.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/hero-buttons/hero-buttons.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/icon-buttons/icon-buttons.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/icon-buttons/icon-buttons.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/icon-buttons/icon-buttons.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/labeled-actions-group/labeled-actions-group.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/labeled-actions-group/labeled-actions-group.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/labeled-actions-group/labeled-actions-group.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/shape-buttons/shape-buttons.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/shape-buttons/shape-buttons.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/shape-buttons/shape-buttons.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/size-buttons/size-buttons.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/size-buttons/size-buttons.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/buttons/size-buttons/size-buttons.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/grid/grid.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/grid/grid.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/grid/grid.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/icons/icons.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/icons/icons.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/icons/icons.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/modals/modal/modal.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/modals/modal/modal.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/modals/modals.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/modals/modals.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/modals/modals.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/search-fields/search-fields.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/search-fields/search-fields.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/tabs/tabs.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/tabs/tabs.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/tabs/tabs.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/typography/typography.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/typography/typography.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/typography/typography.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/ui-features-routing.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/ui-features.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/app/pages/ui-features/ui-features.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/images/alan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/images/camera1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/images/camera2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/images/camera3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/images/camera4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/images/cover1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/images/cover2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/images/cover3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/images/eva.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/images/jack.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/images/kate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/images/kitten-cosmic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/images/kitten-default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/images/lee.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/images/nick.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/images/square_pattern.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/images/square_pattern_cosmic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/images/team.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/skins/lightgray/content.inline.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/skins/lightgray/content.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/skins/lightgray/fonts/tinymce-small.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/skins/lightgray/fonts/tinymce-small.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/skins/lightgray/fonts/tinymce-small.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/skins/lightgray/fonts/tinymce-small.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/skins/lightgray/fonts/tinymce.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/skins/lightgray/fonts/tinymce.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/skins/lightgray/fonts/tinymce.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/skins/lightgray/fonts/tinymce.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/skins/lightgray/img/anchor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/skins/lightgray/img/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/skins/lightgray/img/object.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/skins/lightgray/img/trans.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/skins/lightgray/skin.ie7.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/skins/lightgray/skin.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/vendors/echarts.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/assets/vendors/echarts.world.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/environments/environment.prod.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/environments/environment.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/main.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/polyfills.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/test.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/tsconfig.app.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/tsconfig.spec.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts-client/src/typings.d.ts" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts-client/.gitignore" afterPath="$PROJECT_DIR$/accounts-client/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts-client/LICENSE" afterPath="$PROJECT_DIR$/accounts-client/LICENSE" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts-client/README.md" afterPath="$PROJECT_DIR$/accounts-client/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts-client/e2e/app.e2e-spec.ts" afterPath="$PROJECT_DIR$/accounts-client/e2e/app.e2e-spec.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts-client/e2e/app.po.ts" afterPath="$PROJECT_DIR$/accounts-client/e2e/app.po.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts-client/karma.conf.js" afterPath="$PROJECT_DIR$/accounts-client/karma.conf.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts-client/package.json" afterPath="$PROJECT_DIR$/accounts-client/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts-client/protractor.conf.js" afterPath="$PROJECT_DIR$/accounts-client/protractor.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts-client/src/app/app.component.html" afterPath="$PROJECT_DIR$/accounts-client/src/app/app.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts-client/src/app/app.component.spec.ts" afterPath="$PROJECT_DIR$/accounts-client/src/app/app.component.spec.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts-client/src/app/app.component.ts" afterPath="$PROJECT_DIR$/accounts-client/src/app/app.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts-client/src/app/app.module.ts" afterPath="$PROJECT_DIR$/accounts-client/src/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts-client/src/environments/environment.prod.ts" afterPath="$PROJECT_DIR$/accounts-client/src/environments/environment.prod.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts-client/src/environments/environment.ts" afterPath="$PROJECT_DIR$/accounts-client/src/environments/environment.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts-client/src/index.html" afterPath="$PROJECT_DIR$/accounts-client/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts-client/src/main.ts" afterPath="$PROJECT_DIR$/accounts-client/src/main.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts-client/src/polyfills.ts" afterPath="$PROJECT_DIR$/accounts-client/src/polyfills.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts-client/src/test.ts" afterPath="$PROJECT_DIR$/accounts-client/src/test.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts-client/tsconfig.json" afterPath="$PROJECT_DIR$/accounts-client/tsconfig.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts-client/tslint.json" afterPath="$PROJECT_DIR$/accounts-client/tslint.json" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,40 +304,18 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accounts-client/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="324">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts-client/src/index.html">
+      <file leaf-file-name="protractor.conf.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/accounts-client/protractor.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1512591916340" expanded="true" signature="1669:1676" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts-client/src/main.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts-client/src/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="79" lean-forward="false" selection-start-line="0" selection-start-column="79" selection-end-line="0" selection-end-column="79" />
+            <state relative-caret-position="18">
+              <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -89,32 +331,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accounts-client/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="environment.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts-client/src/environments/environment.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="environment.prod.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts-client/src/environments/environment.prod.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1506580119000" expanded="true" signature="5128:5133" ph="{&quot;@angular/cli&quot;: &quot;1.4.9&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,8 +395,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/client/www/js/controllers.js" />
-        <option value="$PROJECT_DIR$/src/main/client/www/js/nav-controller.js" />
         <option value="$PROJECT_DIR$/src/main/client/www/js/services.js" />
         <option value="$PROJECT_DIR$/src/main/java/edu/tvz/isaric/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/public/js/nav-controller.js" />
@@ -222,6 +444,8 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/tvz/isaric/controllers/AuthenticationController.java" />
         <option value="$PROJECT_DIR$/accounts-client/src/styles.css" />
         <option value="$PROJECT_DIR$/accounts-client/angular-cli.json" />
+        <option value="$PROJECT_DIR$/accounts-client/src/index.html" />
+        <option value="$PROJECT_DIR$/accounts-client/protractor.conf.js" />
       </list>
     </option>
   </component>
@@ -236,7 +460,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="64" />
-    <option name="y" value="-11" />
+    <option name="y" value="1069" />
     <option name="width" value="1857" />
     <option name="height" value="1092" />
   </component>
@@ -272,20 +496,13 @@
               <item name="Accounts" type="b2602c69:ProjectViewProjectNode" />
               <item name="Accounts" type="462c0819:PsiDirectoryNode" />
               <item name="accounts-client" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Accounts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Accounts" type="462c0819:PsiDirectoryNode" />
-              <item name="accounts-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Accounts" type="b2602c69:ProjectViewProjectNode" />
               <item name="Accounts" type="462c0819:PsiDirectoryNode" />
               <item name="accounts-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="environments" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Accounts" type="b2602c69:ProjectViewProjectNode" />
@@ -333,6 +550,7 @@
     <property name="ignore_missing_gitignore" value="true" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="typescript-compiler-editor-notification" value="false" />
+    <property name="add_unversioned_files" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -506,11 +724,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80723000" />
+    <option name="totallyTimeSpent" value="83155000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
+    <frame x="64" y="1069" width="1857" height="1092" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -532,7 +749,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24293193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27252626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27252626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -603,7 +820,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/services.js" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/tvz/isaric/services/employees/EmployeeService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -767,6 +983,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -906,24 +1123,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/accounts-client/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts-client/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512591916340" expanded="true" signature="1669:1676" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accounts-client/src/main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -984,6 +1183,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1506580119000" expanded="true" signature="5128:5133" ph="{&quot;@angular/cli&quot;: &quot;1.4.9&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts-client/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts-client/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts-client/protractor.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="33" />
           <folding />
         </state>
       </provider>

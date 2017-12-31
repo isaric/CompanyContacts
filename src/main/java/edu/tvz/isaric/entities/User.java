@@ -10,13 +10,13 @@ public class User
     @Column(nullable = false)
     private String uid;
 
-    @Column
+    @Column(name = "fname")
     private String firstName;
 
-    @Column
+    @Column(name = "lname")
     private String lastName;
 
-    @Column
+    @Column(name = "phash")
     private String passwordHash;
 
     @Column

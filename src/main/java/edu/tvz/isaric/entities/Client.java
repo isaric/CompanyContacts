@@ -3,16 +3,11 @@ package edu.tvz.isaric.entities;
 import javax.persistence.*;
 
 @Entity
+@DiscriminatorValue("CLIENT")
 public class Client extends User
 {
-    @ManyToOne(targetEntity = Company.class)
+    @ManyToOne(fetch = FetchType.LAZY)
     private Company company;
-
-    @ManyToOne(targetEntity = Employee.class)
-    private Employee contactPerson;
-
-    @OneToOne(targetEntity = Address.class)
-    private Address address;
 
     public Client()
     {
@@ -27,25 +22,5 @@ public class Client extends User
     public void setCompany(Company company)
     {
         this.company = company;
-    }
-
-    public Employee getContactPerson()
-    {
-        return contactPerson;
-    }
-
-    public void setContactPerson(Employee contactPerson)
-    {
-        this.contactPerson = contactPerson;
-    }
-
-    public Address getAddress()
-    {
-        return address;
-    }
-
-    public void setAddress(Address address)
-    {
-        this.address = address;
     }
 }

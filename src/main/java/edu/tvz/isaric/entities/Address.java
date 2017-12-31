@@ -20,7 +20,7 @@ public class Address
     @Column
     private String country;
 
-    @Column
+    @Column(name = "pnumber")
     private String phoneNumber;
 
     public int getId()

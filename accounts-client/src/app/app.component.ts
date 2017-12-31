@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {AuthenticationService} from "./authentication.service";
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,25 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+
+  constructor(private loginService: AuthenticationService) {
+  }
+
+  title = 'Accounts Application';
+
+  isAnon(): boolean {
+    return this.loginService.isUserAnonymous()
+  }
+
+  isAdmin(): boolean {
+    return this.loginService.isUserAdmin()
+  }
+
+  isEmployee(): boolean {
+    return this.loginService.isUserEmployee();
+  }
+
+  isClient(): boolean {
+    return this.loginService.isUserClient();
+  }
 }

@@ -14,13 +14,14 @@ public class Company
     @Column
     private String name;
 
-    @OneToOne(targetEntity = Address.class)
+    @OneToOne(targetEntity = Address.class, cascade = CascadeType.ALL)
+    @JoinColumn(name = "address")
     private Address address;
 
-    @OneToMany(targetEntity = Client.class)
+    @OneToMany(mappedBy = "company", cascade = CascadeType.ALL)
     private List<Client> clients;
 
-    @OneToMany(targetEntity = Employee.class)
+    @OneToMany(mappedBy = "account", cascade = CascadeType.ALL)
     private List<Employee> contactPersons;
 
     public String getUid()

@@ -7,4 +7,8 @@ public interface UserService
     User findByUid(String uid);
 
     void createDefaultAdmin();
+
+    void updateProfile(User user);
+
+    User getCurrentUser();
 }

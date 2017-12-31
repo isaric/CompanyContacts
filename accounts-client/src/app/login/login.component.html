@@ -1,0 +1,4 @@
+<p>{{message}}</p>
+<input [(ngModel)]="login.uid" placeholder="username">
+<input [(ngModel)]="login.password" placeholder="password" type="password" (keyup.enter)="postLogin()">
+<button (click)="postLogin()">Submit</button>

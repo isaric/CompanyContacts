@@ -11,13 +11,17 @@ public class Department
     @Column
     private String uid;
 
-    @OneToMany(targetEntity = Employee.class)
+    @Column
+    private String name;
+
+    @OneToMany(mappedBy = "department")
     private List<Employee> employees;
 
     @OneToOne(targetEntity = Employee.class)
     private Employee manager;
 
     @OneToOne(targetEntity = Address.class)
+    @JoinColumn(name = "address")
     private Address address;
 
     public String getUid()
@@ -28,6 +32,16 @@ public class Department
     public void setUid(String uid)
     {
         this.uid = uid;
+    }
+
+    public String getName()
+    {
+        return name;
+    }
+
+    public void setName(String name)
+    {
+        this.name = name;
     }
 
     public List<Employee> getEmployees()

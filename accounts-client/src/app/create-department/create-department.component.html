@@ -1,0 +1,14 @@
+<div *ngIf="department != null" class="department">
+  <input type="text" [(ngModel)]="department.uid"/>
+  <input type="text" [(ngModel)]="department.name"/>
+  <label>Manager</label>
+  <select [(ngModel)]="department.manager">
+    <option *ngFor="let employee of allEmployees" [ngValue]="employee" label="{{employee.firstName}} {{employee.lastName}}">
+  </select>
+  <label>Employees</label>
+  <select multiple class="employees" [(ngModel)]="department.employees">
+    <option *ngFor="let employee of allEmployees" label="{{employee.firstName}} {{employee.lastName}}" [value]="employee">
+  </select>
+  <app-address-edit (addressData)="updateAddress" [address]="department.address"></app-address-edit>
+  <button (click)="postDepartment()">Save Department</button>
+</div>

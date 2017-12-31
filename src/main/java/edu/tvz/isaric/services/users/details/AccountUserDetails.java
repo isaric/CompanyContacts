@@ -1,19 +1,23 @@
 package edu.tvz.isaric.services.users.details;
 
+import edu.tvz.isaric.entities.Role;
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import java.util.ArrayList;
 import java.util.Collection;
 
 public class AccountUserDetails implements UserDetails
 {
     private String password;
     private String uid;
+    private Role role;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities()
     {
-        return null;
+        return AuthorityUtils.createAuthorityList(role.toString());
     }
 
     @Override
@@ -60,5 +64,10 @@ public class AccountUserDetails implements UserDetails
     protected void setUid(String uid)
     {
         this.uid = uid;
+    }
+
+    public void setRole(Role role)
+    {
+        this.role = role;
     }
 }

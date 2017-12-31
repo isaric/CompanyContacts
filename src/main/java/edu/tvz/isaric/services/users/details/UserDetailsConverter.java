@@ -12,6 +12,7 @@ public class UserDetailsConverter
         AccountUserDetails result = new AccountUserDetails();
         result.setPassword(user.getPasswordHash());
         result.setUid(user.getUid());
+        result.setRole(user.getRole());
         return result;
     }
 }

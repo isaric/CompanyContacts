@@ -1,0 +1,5 @@
+<div class="company" *ngIf="company">
+  Company name: {{company.name}} <br/>
+  Company id: {{company.uid}} <br/>
+  <app-address [address]="company.address"></app-address>
+</div>
